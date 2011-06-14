@@ -12,11 +12,3 @@ div.pngfix,
     margin-left: 0px;
     margin-right: 0px;
 }
-
-/* dark bg title */
-.smithsonian-title-darkbg h2
-{
-    margin-left: -10px;
-    margin-right: -10px;
-    left: 0px;
-}
