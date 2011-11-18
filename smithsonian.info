@@ -10,6 +10,7 @@ screenshot = logo.png
 stylesheets[all][] = css/fusion-starter-style.css
 stylesheets[all][] = css/grid16-960.css
 stylesheets[all][] = css/smithsonian.css
+stylesheets[all][] = css/smithsonian-solr.css ; solr theming for specific smithsonian project.
 stylesheets[all][] = css/smithsonian-skinr.css
 
 scripts[] = js/scripts.js
