@@ -428,3 +428,59 @@ ul.sf-menu li li li.sfHover ul
 }
 
     
+
+/* Solr Results */
+
+.islandora_solr_results
+{
+  color: #333;
+}
+
+.islandora_solr_results .islandora_solr_result
+{
+  float: left;
+  width: 100%;
+  margin: 0px 0px 8px 0px;
+  padding: 0px 0px 8px 0px;
+
+  border-bottom: 1px dotted #666;
+}
+
+.islandora_solr_results .islandora_solr_result .solr-field
+{
+  width: 100%;
+  margin: 1px 0px;
+  
+  display: inline-block;
+  vertical-align: top;
+}
+
+.islandora_solr_results .islandora_solr_result .solr-field .label
+{
+  float: left;
+  width: 11%;
+  color: #555;
+}
+
+.islandora_solr_results .islandora_solr_result .solr-field .value
+{
+  float: right;
+  width: 89%;
+  color: #333;
+}
+
+.islandora_solr_results .islandora_solr_result .dc-title-s .value
+{
+
+}
+
+.islandora_solr_results .islandora_solr_result .solr-field .label label
+{
+
+}
+
+.item-list .pager
+{
+  float: left;
+  width: 100%;
+}
