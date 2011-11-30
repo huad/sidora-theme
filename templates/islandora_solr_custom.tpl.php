@@ -77,18 +77,18 @@
               <div class="value"><?php print $result['mods_creator_s']['value']; ?></div>
             </div>
           <?php endif; ?>
-          <?php if (!empty($result['dc_descripton_s']['value'])): ?>
+          <?php if (!empty($result['dc_description_s']['value'])): ?>
           <?php
           $readmore = '';
           $max_length = 500;
-          if (strlen($result['dc_descripton_s']['value']) > $max_length) {
-            $result['dc_descripton_s']['value'] = preg_replace('/\s+?(\S+)?$/', '', substr($result['dc_descripton_s']['value'], 0, $max_length));
+          if (strlen($result['dc_description_s']['value']) > $max_length) {
+            $result['dc_description_s']['value'] = preg_replace('/\s+?(\S+)?$/', '', substr($result['dc_description_s']['value'], 0, $max_length));
             $readmore = '... (' . l(t('Read More'), $pid_link) . ')';
           }
           ?>
-            <div class="solr-field <?php print $result['dc_descripton_s']['class']; ?>">  
-              <div class="label"><label><?php print t($result['dc_descripton_s']['label']); ?>:</label></div>
-              <div class="value"><?php print $result['dc_descripton_s']['value'] . $readmore; ?></div>
+            <div class="solr-field <?php print $result['dc_description_s']['class']; ?>">  
+              <div class="label"><label><?php print t($result['dc_description_s']['label']); ?>:</label></div>
+              <div class="value"><?php print $result['dc_description_s']['value'] . $readmore; ?></div>
             </div>
           <?php endif; ?>
         </li>
