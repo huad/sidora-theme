@@ -521,3 +521,46 @@ COLOR: #000000;
   float: left;
   width: 100%;
 }
+
+/*Parent links in overview panel of content model viewer*/
+div#parentLinks {
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+div.parentLink {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    padding: 0.5em 0.5em 0.5em 2.2em;
+    margin: 1px 0 1px 0;
+    color: #555555;
+    text-decoration: none;
+    background: url("/sites/all/themes/smithsonian-theme/images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6;
+    border: 1px solid #D3D3D3;
+    font-weight: normal;
+    border-radius: 4px 4px 4px 4px;
+}
+div.parentLink a {
+    color: #555555;
+}
+div.parentLink:hover {
+    color: #212121;
+    border-color: #212121;
+    outline: medium none;
+    text-decoration: none;
+}
+div.parentLink:hover a {
+    color: #212121;
+}
+div.parentLink > span.icon {
+    display: inline-block;
+    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/folder.gif");
+    width: 16px;
+    height: 16px;
+    margin: 0px 4px 0px 0px;
+}
+div.parentLink:hover > span.icon {
+    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/folder-open.gif");
+}
