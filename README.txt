@@ -52,3 +52,7 @@ long sidebar with multiple blocks in it. (not going to do this yet. You can
 - add example screenshots to the Smithsonian block styles/titles.
 - clean up the css files a bit.
 - add skinr styles for panels (done - update readme.txt)
+
+Credits:
+========
+Collection icons by Yusuke Kamiyamane: http://p.yusukekamiyamane.com/
