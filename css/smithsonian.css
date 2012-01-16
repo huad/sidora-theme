@@ -170,7 +170,7 @@ ul.pager li.pager-current
 }
 
 /* reverting some EXT-JS styling */
-.x-border-box .x-reset #header-top-inner *
+.x-border-box .x-reset #header-top *
 {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
