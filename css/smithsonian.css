@@ -631,181 +631,219 @@ div.parentLink {
 }
 
 /*content model viewer tree icons. icon class name = content model name minus prefix*/
-.orgCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/org.png");
-    width: 16px
-}
-.x-grid-tree-node-expanded .orgCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/org.png");
-    width: 16px
+.orgCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/org.png");
+  width: 16px
 }
 
-
-.organizationCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/org.png");
-    width: 16px
+.x-grid-tree-node-expanded .orgCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/org.png");
+  width: 16px
 }
-.x-grid-tree-node-expanded .organizationCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/org.png");
-    width: 16px;
+
+.organizationCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/org.png");
+  width: 16px
+}
+
+.x-grid-tree-node-expanded .organizationCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/org.png");
+  width: 16px;
 }  
 
-
-.cameraTrapCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/films.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .cameraTrapCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/films.png");
-    width: 16px;
+.cameraTrapCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/films.png");
+  width: 16px;
 }
 
-
-.cameraTrapDeploymentCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--arrow.png");
-    width: 16px; 
-}
-.x-grid-tree-node-expanded .cameraTrapDeploymentCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--arrow.png");
-    width: 16px; 
+.x-grid-tree-node-expanded .cameraTrapCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/films.png");
+  width: 16px;
 }
 
-
-.cameraTrapImageCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film.png");
-    width: 16px; 
+.cameraTrapDeploymentCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--arrow.png");
+  width: 16px; 
 }
-.x-grid-tree-node-expanded .cameraTrapImageCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film.png");
-    width: 16px; 
+
+.x-grid-tree-node-expanded .cameraTrapDeploymentCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--arrow.png");
+  width: 16px; 
 }
 
 
-.collectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/photo-album-blue.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .collectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/photo-album-blue.png");
-    width: 16px;
+.cameraTrapImageCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film.png");
+  width: 16px; 
 }
 
-
-.ctCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/films.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .ctCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/films.png");
-    width: 16px;
+.x-grid-tree-node-expanded .cameraTrapImageCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film.png");
+  width: 16px; 
 }
 
-
-.ctPlotCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--pencil.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .ctPlotCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--pencil.png");
-    width: 16px;
+.collectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/photo-album-blue.png");
+  width: 16px;
 }
 
-
-.datasetCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/disk-return-black.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .datasetCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/disk-return-black.png");
-    width: 16px;
+.x-grid-tree-node-expanded .collectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/photo-album-blue.png");
+  width: 16px;
 }
 
-
-.expeditionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/globe-green.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .expeditionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/globe-green.png");
-    width: 16px;
+.ctCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/films.png");
+  width: 16px;
 }
 
-
-.fbCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/notebooks.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .fbCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/notebooks.png");
-    width: 16px;
+.x-grid-tree-node-expanded .ctCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/films.png");
+  width: 16px;
 }
 
-
-.fieldbookCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/notebook--pencil.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .fieldbookCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/notebook--pencil.png");
-    width: 16px;
+.ctPlotCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--pencil.png");
+  width: 16px;
 }
 
-
-.peopleCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/users.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .peopleCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/users.png");
-    width: 16px;
+.x-grid-tree-node-expanded .ctPlotCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--pencil.png");
+  width: 16px;
 }
 
-
-.peopleCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/user.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .peopleCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/user.png");
-    width: 16px;
+.datasetCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/disk-return-black.png");
+  width: 16px;
 }
 
-
-.orgCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/building.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .orgCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/building.png");
-    width: 16px;
+.x-grid-tree-node-expanded .datasetCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/disk-return-black.png");
+  width: 16px;
 }
 
-
-.ncdCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/grid-dot.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .ncdCollectionCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/grid-dot.png");
-    width: 16px;
+.expeditionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/globe-green.png");
+  width: 16px;
 }
 
-
-.projectCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/blueprint.png");
-    width: 16px;
-}
-.x-grid-tree-node-expanded .projectCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/blueprint.png");
-    width: 16px;
+.x-grid-tree-node-expanded .expeditionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/globe-green.png");
+  width: 16px;
 }
 
-
-.imageCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/picture.png");
-    width: 16px; 
+.fbCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/notebooks.png");
+  width: 16px;
 }
-.x-grid-tree-node-expanded .imageCModel {
-    background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/picture.png");
-    width: 16px; 
+
+.x-grid-tree-node-expanded .fbCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/notebooks.png");
+  width: 16px;
+}
+
+.fieldbookCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/notebook--pencil.png");
+  width: 16px;
+}
+
+.x-grid-tree-node-expanded .fieldbookCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/notebook--pencil.png");
+  width: 16px;
+}
+
+.peopleCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/users.png");
+  width: 16px;
+}
+
+.x-grid-tree-node-expanded .peopleCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/users.png");
+  width: 16px;
+}
+
+.peopleCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/user.png");
+  width: 16px;
+}
+
+.x-grid-tree-node-expanded .peopleCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/user.png");
+  width: 16px;
+}
+
+.orgCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/building.png");
+  width: 16px;
+}
+
+.x-grid-tree-node-expanded .orgCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/building.png");
+  width: 16px;
+}
+
+.ncdCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/grid-dot.png");
+  width: 16px;
+}
+
+.x-grid-tree-node-expanded .ncdCollectionCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/grid-dot.png");
+  width: 16px;
+}
+
+.projectCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/blueprint.png");
+  width: 16px;
+}
+
+.x-grid-tree-node-expanded .projectCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/blueprint.png");
+  width: 16px;
+}
+
+.imageCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/picture.png");
+  width: 16px; 
+}
+
+.x-grid-tree-node-expanded .imageCModel
+{
+  background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/picture.png");
+  width: 16px; 
 }
