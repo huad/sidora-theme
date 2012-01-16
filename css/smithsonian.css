@@ -164,8 +164,10 @@ ul.pager li.pager-current
   margin: 0px 0px 5px 0px;
 }
 
-
-
+#header-top-inner ul.menu
+{
+  margin-bottom: 10px;
+}
 
 
 
