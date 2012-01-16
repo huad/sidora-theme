@@ -44,6 +44,15 @@ does not include padding. You'll have to set this on the block/pane level.
 If you want the search form enabled at the top of the page, make sure to give
 search permissions to anonymous users.
 
+You can add the standard drupal search from by checking it in the theme settings.
+This will expose the search form in a gray bar at the top like si.org. If you
+want to use the islandora simple search form however, move this block into
+the header_top region. This will also create a gray bar, so make sure not to
+enable both at the same time or this will create two bars. Unless you move the
+standard drupal search block into header_top. Make sure to disable the block 
+title by using <none> as title. The block should also be set as 4 grids wide.
+
+
 TODO:
 - slideshow?
 - option for blocks: top, center, bottom. So you can create the illusion of one 

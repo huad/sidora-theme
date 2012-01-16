@@ -109,7 +109,8 @@ ul.pager li.pager-current
 
 /* Drupal default Search box */
 
-.topbar
+.topbar,
+#header-top-inner
 {
     height: 25px;
     margin: 10px 5px 15px;
@@ -120,13 +121,15 @@ ul.pager li.pager-current
     behavior: url('/sites/all/themes/smithsonian/pie/PIE.htc');
 }
 
-#search-box
+#search-box,
+#header-top-inner #block-islandora_solr_search-simple
 {
   float: right;
   width: 270px;
 }
 
-.topbar #edit-search-theme-form-header
+.topbar #edit-search-theme-form-header,
+#header-top-inner #block-islandora_solr_search-simple #edit-islandora-simple-search-query
 {
     background: url("../images/search_icon.png") no-repeat scroll 5px center #FFFFFF;
     color: #929191;
@@ -135,14 +138,17 @@ ul.pager li.pager-current
     width: 155px;
 }
 
-.topbar form input {
+.topbar form input,
+#header-top-inner #block-islandora_solr_search-simple form input
+{
     background-color: #EBEBEB;
     border: 1px solid #B2B2B2;
     font: 0.8em Verdana;
     height: 1.8em;
     vertical-align: middle;
 }
-.topbar input.search_submit
+.topbar input.search_submit,
+#header-top-inner #block-islandora_solr_search-simple input.form-submit
 {
     background: none repeat scroll 0 0 #017AAB;
     color: #FFFFFF;
@@ -151,6 +157,20 @@ ul.pager li.pager-current
     padding: 0px 5px;
     cursor: pointer;
 }
+
+#header-top-inner #block-islandora_solr_search-simple #edit-islandora-simple-search-query-wrapper
+{
+  float: left;
+  margin: 0px 0px 5px 0px;
+}
+
+
+
+
+
+
+
+
 #logo
 {
     float: left;
@@ -847,3 +867,8 @@ div.parentLink {
   background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/picture.png");
   width: 16px; 
 }
+
+
+
+/* header top region */
+

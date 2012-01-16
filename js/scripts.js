@@ -1,10 +1,1 @@
-$(document).ready(function() {
-    
-  $('#edit-search-theme-form-header').val(Drupal.t('Keyword Search'));
-  $('#edit-search-theme-form-header').focus(function() {
-      if ($(this).val() == Drupal.t('Keyword Search')) $(this).val('');
-  });
-  $('#edit-search-theme-form-header').blur(function() {
-      if ($(this).val() == '') $(this).val(Drupal.t('Keyword Search'));
-  }); 
-});
+Drupal.behaviors.searchVal = function (context) {    $('#edit-search-theme-form-header', context).val(Drupal.t('Keyword Search'));  $('#edit-search-theme-form-header', context).focus(function() {      if ($(this).val() == Drupal.t('Keyword Search')) $(this).val('');  });  $('#edit-search-theme-form-header', context).blur(function() {      if ($(this).val() == '') $(this).val(Drupal.t('Keyword Search'));  });};Drupal.behaviors.islandoraSearchVal = function (context) {    $('#edit-islandora-simple-search-query', context).val(Drupal.t('Repository Search'));  $('#edit-islandora-simple-search-query', context).focus(function() {      if ($(this).val() == Drupal.t('Repository Search')) $(this).val('');  });  $('#edit-islandora-simple-search-query', context).blur(function() {      if ($(this).val() == '') $(this).val(Drupal.t('Repository Search'));  });};Drupal.behaviors.islandoraSubmitVal = function (context) {    $('#islandora-solr-simple-search-form .form-submit', context).val(Drupal.t('Go »'));  };
