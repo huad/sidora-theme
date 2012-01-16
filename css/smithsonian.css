@@ -169,8 +169,19 @@ ul.pager li.pager-current
   margin-bottom: 10px;
 }
 
+/* reverting some EXT-JS styling */
+.x-border-box .x-reset #header-top-inner *
+{
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
 
-
+.x-border-box .x-reset input.search_submit,
+.x-border-box .x-reset #header-top-inner #block-islandora_solr_search-simple input.form-submit
+{
+  height: 15px;
+}
 
 
 #logo
