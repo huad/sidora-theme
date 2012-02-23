@@ -216,7 +216,7 @@ ul.sf-menu
 {
     list-style: none;
     float: left;
-    width: 950px;
+    width: 100%; /* width: 950px; */
     background: #015F90 url('../images/nav_3_bg.png') repeat-x top left;
     border: solid 1px #015A8A;
     border-top: 0;
@@ -884,4 +884,40 @@ div.parentLink {
 
 
 /* header top region */
+
+
+
+
+/* Smithsonian exhibition piece theming */
+
+#si-resources-inner .controls h3
+{
+  font-size: 1.4em;
+}
+
+#si-resources-inner .controls ul li
+{
+  border-right: 1px solid #ccc;
+  padding: 0 10px 0 5px;
+}
+
+#si-resources-inner .controls ul li.last
+{
+  border-right: 0px;
+}
+
+#si-resources-inner .controls ul li a.active
+{
+  color: #006CA8;
+}
+
+#si-resources-inner .controls ul li a.active:hover
+{
+  color: #676767;
+}
+
+#si-resources .showing
+{
+  color: #333;
+}
 
