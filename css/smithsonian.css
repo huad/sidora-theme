@@ -921,3 +921,23 @@ div.parentLink {
   color: #333;
 }
 
+ul.parent-concepts,
+ul.child-concepts
+{
+  margin: 0px 0px 10px 0px;
+}
+
+ul.parent-concepts li,
+ul.child-concepts li
+{
+  list-style: none;
+  padding: 5px 3px;
+}
+
+ul.parent-concepts li:nth-child(2n),
+ul.child-concepts li:nth-child(2n),
+ul.parent-concepts li.odd,
+ul.child-concepts li.odd
+{
+  background-color: #f6f6f6;
+}
