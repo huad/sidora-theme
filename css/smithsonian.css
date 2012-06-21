@@ -153,7 +153,7 @@ ul.pager li.pager-current
     background: none repeat scroll 0 0 #017AAB;
     color: #FFFFFF;
     font-size: 0.9em;
-    font-weight: bold; 
+    font-weight: bold;
     padding: 0px 5px;
     cursor: pointer;
 }
@@ -220,13 +220,13 @@ ul.sf-menu
     background: #015F90 url('../images/nav_3_bg.png') repeat-x top left;
     border: solid 1px #015A8A;
     border-top: 0;
-    
+
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius-bottomleft: 5px;
     -moz-border-radius-bottomright: 5px;
     -moz-border-radius-topleft: 5px;
     -moz-border-radius-topright: 5px;
-    behavior: url('/sites/all/themes/smithsonian/pie/PIE.htc');    
+    behavior: url('/sites/all/themes/smithsonian/pie/PIE.htc');
 }
 
 ul.sf-menu a,
@@ -239,7 +239,7 @@ ul.sf-menu a:hover
     color: #fff;
     font-weight: normal;
     font-size: 17px;
-    
+
 /*    padding: 15px 15px;*/
 /*    line-height: 35px;*/
 }
@@ -381,13 +381,13 @@ ul.sf-menu li li li.sfHover ul
     border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    
+
     -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
     box-shadow: 0px 0px 6px 1px rgba(110, 110, 110, .1);
     behavior: url('/sites/all/themes/smithsonian/pie/PIE.htc');
     z-index: 0;
-    
+
     padding: 15px 10px;
     margin: 0px 5px 10px 5px;
 }
@@ -397,15 +397,15 @@ ul.sf-menu li li li.sfHover ul
 {
     background-color: #eee;
     border: 0px;
-    
+
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    
+
     padding: 0px;
     margin: 0px;
 }
@@ -420,13 +420,13 @@ ul.sf-menu li li li.sfHover ul
     border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    
+
     -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
     box-shadow: 0px 0px 6px 1px rgba(110, 110, 110, .1);
     behavior: url('/sites/all/themes/smithsonian/pie/PIE.htc');
     z-index: 0;
-    
+
 /*    padding: 15px 10px;*/
 /*    margin: 0px 5px 10px 5px;*/
 }
@@ -515,7 +515,7 @@ ul.sf-menu li li li.sfHover ul
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	border:1px solid #dcdcdc;
-	
+
 	display:inline-block;
 	color:#555;
 	font-family:arial;
@@ -569,7 +569,7 @@ ul.sf-menu li li li.sfHover ul
 {
   width: 100%;
   margin: 1px 0px;
-  
+
   display: inline-block;
   vertical-align: top;
 }
@@ -617,50 +617,45 @@ div.parentLink {
   float: left;
   width: 100%;
   margin: 5px 0px 5px 0px;
-  
-  /* background: url("/sites/all/themes/smithsonian-theme/images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6; */
   background: #f4f4f4;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px 4px 4px 4px;
+  min-height: 20px;
 }
 
-#content-model-viewer div.parentLink a,
-#content-model-viewer div.parentLink a:link
+#content-model-viewer div.parentLink a.content-model-viewer-parent-link,
+#content-model-viewer div.parentLink a.content-model-viewer-parent-link:link
 {
-    display: block;
+    display: inline;
     width: 100%;
-    min-height: 17px;
-    padding: 5px 0px 5px 30px;
-    
-    background: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/folder.gif") 8px 5px no-repeat transparent;
-
-    font-size: 1em;
-    font-weight: normal;
+    padding: 6px 0px 5px 30px;
+    line-height: 2;
     color: #555555;
-    text-decoration: none;
-    
-    border: 1px solid #ccc;
-    border-radius: 4px 4px 4px 4px;
+    background: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/folder.gif") 8px 5px no-repeat transparent;
 }
-
-#content-model-viewer div.parentLink a:hover {
+#content-model-viewer div.parentLink a.content-model-viewer-parent-link:hover {
     color: #212121;
-    text-decoration: none;
-    
     border-color: #777;
     outline: medium none;
-        
     background: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/folder-open.gif") 8px 5px no-repeat transparent;
-
     cursor: pointer;
 }
 
-#content-model-viewer div.parentLink span
+#content-model-viewer div.parentLink a.content-model-viewer-remove-parent-link
 {
-  display: none;
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 20px 5px 5px 30px;
+    background: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/dd/drop-no.gif") 8px 5px no-repeat transparent;
 }
 
 .x-panel-body
 {
- 
+
 }
 
 /*content model viewer tree icons. icon class name = content model name minus prefix*/
@@ -686,7 +681,7 @@ div.parentLink {
 {
   background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/org.png");
   width: 16px;
-}  
+}
 
 .cameraTrapCModel
 {
@@ -703,26 +698,26 @@ div.parentLink {
 .cameraTrapDeploymentCModel
 {
   background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--arrow.png");
-  width: 16px; 
+  width: 16px;
 }
 
 .x-grid-tree-node-expanded .cameraTrapDeploymentCModel
 {
   background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film--arrow.png");
-  width: 16px; 
+  width: 16px;
 }
 
 
 .cameraTrapImageCModel
 {
   background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film.png");
-  width: 16px; 
+  width: 16px;
 }
 
 .x-grid-tree-node-expanded .cameraTrapImageCModel
 {
   background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/film.png");
-  width: 16px; 
+  width: 16px;
 }
 
 .collectionCModel
@@ -872,13 +867,13 @@ div.parentLink {
 .imageCModel
 {
   background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/picture.png");
-  width: 16px; 
+  width: 16px;
 }
 
 .x-grid-tree-node-expanded .imageCModel
 {
   background-image: url("/sites/all/modules/content_model_viewer/lib/ext/resources/themes/images/gray/tree/picture.png");
-  width: 16px; 
+  width: 16px;
 }
 
 
