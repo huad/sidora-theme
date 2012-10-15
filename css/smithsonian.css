@@ -160,9 +160,12 @@ ul.pager li.pager-current
 
 #header-top-inner #block-islandora_solr_search-simple #edit-islandora-simple-search-query-wrapper
 {
-/*float: left;*/
+  /*float: left;*/
+  /* display: inline; */
+  /* margin: 0px 0px 5px 0px; */
   display: inline;
-  margin: 0px 0px 5px 0px;
+  zoom: 1;
+  margin: 0px;
 }
 
 #header-top-inner ul.menu
