@@ -43,7 +43,7 @@ features[] = primary_links
 features[] = secondary_links
 
 ; Default theme settings
-settings[theme_grid] = grid16-960
+settings[theme_grid] = grid16-fluid
 settings[theme_grid_options][] = grid16-960
 settings[theme_grid_options][] = grid16-fluid
 settings[fluid_grid_width] = fluid-100
