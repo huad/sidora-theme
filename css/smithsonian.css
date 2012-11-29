@@ -940,3 +940,22 @@ ul.child-concepts li.odd
 {
   background-color: #f6f6f6;
 }
+
+
+
+/* iframe and general layout */
+
+body.grid-type-fluid .full-width .grid16-16
+{
+  width: 95%;
+}
+
+#content-region iframe
+{
+  width: 100%;
+}
+
+.grid-type-fluid .row
+{
+  max-width: 100%;
+}

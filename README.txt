@@ -33,7 +33,7 @@ The following skinr options are added when configuring blocks:
 
 Under the Smithsonian theme settings, make sure the following options 
 are enabled:
-- General settings > Layout : 16 column fixed grid
+- General settings > Layout : 16 column fluid grid
 - General settings > Navigation : make sure primary menu is set as dropdown.
 
 For panels:
